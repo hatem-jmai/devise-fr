@@ -1,6 +1,6 @@
 <?php header('Content-type: text/html; charset=utf-8'); ?>
 <!DOCTYPE html>
-<html lang="de">
+<html lang="fr">
 
 <head>
     <meta charset="utf-8" />
@@ -92,7 +92,6 @@ function enable(bb){
    }
     $(".li"+bb).addClass("active");
     
-
 }
 
 
@@ -121,7 +120,11 @@ function enableInput(x){
 </script>
 
 
-<body  onload="load('de')"  >
+<body  onload="load('fr')" >
+
+
+
+
 <nav id="sidebar" class="active">
     <div class="p-4">
         <h1><a href="devise.php" class="logo">Devis</a></h1>
@@ -583,7 +586,7 @@ function enableInput(x){
                                     </label>
                                 </td>
                                 <td>
-                                    <input type="text" name="name"  class="form-control" required placeholder="name *">
+                                    <input type="text" name="nameonline"  class="form-control" required placeholder="name *">
                                 </td>
                             </tr>
                             <tr>
@@ -591,7 +594,7 @@ function enableInput(x){
                                     <label data-tag="vorname" class="form-check-label" id="global" for="vorname"> </label>
                                 </td>
                                 <td>
-                                    <input type="text" name="vorname"  class="form-control" required placeholder="vorname *">
+                                    <input type="text" name="vornameonline"  class="form-control" required placeholder="vorname *">
                                 </td>
                             </tr>
                             <tr>
@@ -599,7 +602,7 @@ function enableInput(x){
                                     <label data-tag="NomCompagnie" class="form-check-label" id="global" for="unternehmens"></label>
                                 </td>
                                 <td>
-                                    <input type="text" name="unternehmens"  class="form-control" required placeholder="unternehmens name ">
+                                    <input type="text" name="unternehmensonline"  class="form-control" required placeholder="unternehmens name ">
                                 </td>
                             </tr>
                             <tr>
@@ -607,7 +610,7 @@ function enableInput(x){
                                     <label data-tag="adresse" class="form-check-label" id="global" for="adresse"></label>
                                 </td>
                                 <td>
-                                    <input type="text" name="adresse"  class="form-control" required placeholder="adresse">
+                                    <input type="text" name="adresseonline"  class="form-control" required placeholder="adresse">
                                 </td>
                             </tr>
                             <tr>
@@ -615,7 +618,7 @@ function enableInput(x){
                                     <label data-tag="telefon" class="form-check-label" id="global" for="Telefon"></label>
                                 </td>
                                 <td>
-                                    <input type="number" name="Telefon"  class="form-control" required placeholder="Telefon *">
+                                    <input type="number" name="Telefononline"  class="form-control" required placeholder="Telefon *">
                                 </td>
                             </tr>
                             <tr>
@@ -623,7 +626,7 @@ function enableInput(x){
                                     <label data-tag="email" class="form-check-label" id="global" for="Email"></label>
                                 </td>
                                 <td>
-                                    <input type="email" name="Email"  class="form-control" required placeholder="Email *">
+                                    <input type="email" name="Emailonline"  class="form-control" required placeholder="Email *">
                                 </td>
                             </tr>
                         </tbody>
@@ -639,8 +642,11 @@ function enableInput(x){
                     
                     <div class="rightTab">
                         <textarea  class="form-control" name="question13" required placeholder="name *"></textarea>
+                        
                         <input type="button" class="btn btn-primary"  value="suivant"  
+                       
                         onclick="enableonline('1');enable('onlineshop');disable('homepage');affiche_li('14');">
+                       
                         </div>    
                         
                             
@@ -672,9 +678,8 @@ function enableInput(x){
 
 
 
-
-
-    <div id="onlineshop">  
+<section id="onlineshop" >
+    <div   >  
             <p class="h1"  data-tag="hatem" > </p>
                 <div class="left" id="section1"> 
                     <b id="name-label" >1.</b>
@@ -1082,6 +1087,7 @@ function enableInput(x){
 
     </div>
     </div>
+    </section>
 
         
     </form>

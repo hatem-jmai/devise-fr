@@ -32,7 +32,7 @@ $json= json_decode($Francais,true);
         $adresse=$_POST['adresse'];
         $question13=$_POST['question13'];
 
-        $onlineQ1=$_POST['onlineQ1'];
+/*         $onlineQ1=$_POST['onlineQ1'];
         $onlineQ2=$_POST['onlineQ2'];
         $onlineQ3=$_POST['onlineQ3'];
         $onlineQ4=$_POST['onlineQ4'];
@@ -50,7 +50,7 @@ $json= json_decode($Francais,true);
         $Emailonline=$_POST['Emailonline'];
         $adresseonline=$_POST['adresseonline'];
         $QUESTION13online=$_POST['QUESTION13online'];
-          
+           */
 
 /* 
  if (isset($_POST['fname']) ) 
@@ -111,7 +111,7 @@ $data .=   '<b>' .$json['adresse']. '</b>'. $adresse. '<br/>' ;
 $data .=  '<h3>13)' .$json['QUESTION13']. '</h3>' ;
 $data .=   $question13 ; 
 
-
+/* 
 $data .= '<br/> <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>';
 
@@ -160,7 +160,7 @@ $data .=   '<b>' .$json['adresse']. '</b>'. $adresseonline. '<br/>' ;
 
 $data .=  '<h3>13)' .$json['QUESTION13']. '</h3>' ;
 $data .=   $QUESTION13online ; 
-
+ */
 
 /* 
 

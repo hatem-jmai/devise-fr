@@ -10,14 +10,14 @@ $Francais=file_get_contents("./i18n/fr.json");
 $json= json_decode($Francais,true);
 
  
-        $homeQ1=$_POST['homeQ1'];
+/*         $homeQ1=$_POST['homeQ1'];
       /*   echo  $json['HomePage'];
         die;  */
-        
+ /*        
         $homeQ2=$_POST['homeQ2'];
         $homeQ3=$_POST['homeQ3'];
         $homeQ4=$_POST['homeQ4'];
-        $homeQ5=$_POST['homeQ5'];
+        $homeQ5=$_POST['homeQ5'];   
         $homeQ6=$_POST['homeQ6'];
         $homeQ7=$_POST['homeQ7'];
         $homeQ8=$_POST['homeQ8'];
@@ -31,7 +31,7 @@ $json= json_decode($Francais,true);
         $Email=$_POST['Email'];
         $adresse=$_POST['adresse'];
         $question13=$_POST['question13'];
-
+ */ 
         $onlineQ1=$_POST['onlineQ1'];
         $onlineQ2=$_POST['onlineQ2'];
         $onlineQ3=$_POST['onlineQ3'];
@@ -65,7 +65,7 @@ $mpdf=new \Mpdf\Mpdf();
 
 //create pdf
 $data='';
-$data .=  '<h1 style="text-align:center">' .$json['HomePage']. '</h1>' .'<br/>' ;
+/* $data .=  '<h1 style="text-align:center">' .$json['HomePage']. '</h1>' .'<br/>' ;
 $data .=  '<h3>1)' .$json['homeQ1']. '</h3>' ;
 $data .=   $json[$homeQ1] ; 
 
@@ -113,7 +113,7 @@ $data .=   $question13 ;
 
 
 $data .= '<br/> <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>';
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>'; */
 
 $data .=  '<h1 style="text-align:center">' .$json['Online123']. '</h1>' .'<br/>' ;
 $data .=  '<h3>1)' .$json['onlineQ1']. '</h3>' ;
