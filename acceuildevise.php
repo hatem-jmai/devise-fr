@@ -71,12 +71,12 @@ addEventListener('DOMContentLoaded', function() {
                 
               </div>
               <div class="card__img"></div>
-              <a href="devise.php" class="card_link">
+              <a href="deviseHome.php" class="card_link">
                  <div class="card__img--hover"></div>
                </a>
               <div class="card__info">
                 <span class="card__category">Homepage</span>
-                <h3 class="card__title">Crisp Spanish tortilla Matzo brei</h3>
+                <h3 class="card__title">Créez votre site vitrine</h3>
                 <button class="card__btn see" onclick="enableContent()">Explore <span class="flesh">→</span></button>
               </div>
             </article>
@@ -88,12 +88,12 @@ addEventListener('DOMContentLoaded', function() {
                 
               </div>
               <div class="card__img"></div>
-              <a href="devise.php/#onlineshop" class="card_link">
+              <a href="deviseOnline.php" class="card_link">
                  <div class="card__img--hover"></div>
                </a>
               <div class="card__info">
                 <span class="card__category">Online Shop</span>
-                <h3 class="card__title">Discover the sea</h3>
+                <h3 class="card__title">Créez votre site Web de commerce électronique</h3>
                 <button class="card__btn see" onclick="enableContent()">Explore <span>→</span></button>
               </div>
             </article>
@@ -105,12 +105,12 @@ addEventListener('DOMContentLoaded', function() {
                   
                 </div>
                 <div class="card__img"></div>
-                <a href="#" class="card_link">
+                <a href="deviseApp.php" class="card_link">
                    <div class="card__img--hover"></div>
                  </a>
                 <div class="card__info">
                   <span class="card__category">Apps</span>
-                  <h3 class="card__title">Crisp Spanish tortilla Matzo brei</h3>
+                  <h3 class="card__title">Construisez votre application mobile</h3>
                   <button class="card__btn see" onclick="enableContent()">Explore <span>→</span></button>
                 </div>
               </article>
